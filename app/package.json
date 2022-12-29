@@ -1,0 +1,16 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "My test electron app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "watch": "nodemon --exec electron ."
+  },
+  "author": "CoderJeet",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.9"
+  }
+}
